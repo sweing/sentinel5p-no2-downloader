@@ -1,0 +1,14 @@
+[project]
+name = "sentinel5p_no2_downloader"
+version = "0.1.0"
+description = "A project to download and analyze global NO2 data from Terrascope."
+authors = ["Your Name <you@example.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "win-64"]
+
+[tasks]
+start = "python download_terrascope_no2.py"
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+requests = ">=2.32.4,<3"

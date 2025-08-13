@@ -1,0 +1,4 @@
+config.ini
+pixi.lock
+*.tif
+*.xml

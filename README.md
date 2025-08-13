@@ -1,6 +1,6 @@
 # Global NO2 Data Downloader
 
-This project contains a Python script to download monthly average Nitrogen Dioxide (NO2) composites from the Copernicus Sentinel-5P satellite using the Terrascope service. The script saves the data as GeoTIFF files directly to your local machine.
+This project contains a Python script to download monthly average Level 3 Nitrogen Dioxide (NO2) composites from the Copernicus Sentinel-5P satellite using the Terrascope service. The script saves the data as GeoTIFF files directly to your local machine.
 
 ## Features
 
@@ -48,7 +48,7 @@ pixi run start
 
 The script will:
 1.  Create a local directory (default: `Terrascope_NO2_Local_Exports`).
-2.  Begin downloading the 12 monthly GeoTIFF files for the current year.
+2.  Begin downloading the 12 monthly GeoTIFF files for the given year.
 
 This process can take some time, depending on your internet connection.
 

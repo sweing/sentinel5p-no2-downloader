@@ -2,7 +2,7 @@
 name = "sentinel5p_no2_downloader"
 version = "0.1.0"
 description = "A project to download and analyze global NO2 data from Terrascope."
-authors = ["Your Name <you@example.com>"]
+authors = ["Stefan Weingärtner"]
 channels = ["conda-forge"]
 platforms = ["linux-64", "osx-64", "win-64"]
 
